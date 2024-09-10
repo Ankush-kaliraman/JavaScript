@@ -9,16 +9,27 @@
     </style>
 </head>
 <body>
-    <h1 id="hii"> <ul>
+    <div class="parent">
+<div class="helo" ><h1>dauys</h1></div>
+<div class="helo " ><h2> jui</h2></div>
+<div class="helo" ><h1>dauys</h1></div>
+<div class="helo " ><h2> jui</h2></div>
+    </div>
+    <!-- <h1 id="hii"> <ul>
         <li>apple</li>
         <li>banana</li>
         <li>orange</li>
-    </ul></h1>
-    
-    <script src="dom.js">
-        const a= document.getElementById()
-        a.blur
-        console.log(a)
+    </ul></h1> -->
+    </body>
+    <script src>
+        const parent =document.querySelector('.parent')
+        for( let i=0; i<=parent.children.length; i++){
+            console.log(parent.children[i].innerHTML);
+        }
+        const kiy =document.querySelector('.helo')
+        console.log(kiy)
+        console.log(kiy.innerHTML)
+        
     </script>
-</body>
+
 </html>
